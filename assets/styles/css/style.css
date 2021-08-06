@@ -34,6 +34,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-costom-light: #f1f1f1;
+  --bs-costom-white: #e4e4e4;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
@@ -2943,6 +2944,36 @@ textarea.form-control-lg {
   border-color: #f1f1f1;
 }
 
+.btn-costom-white {
+  color: #000;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+}
+.btn-costom-white:hover {
+  color: #000;
+  background-color: #e8e8e8;
+  border-color: #e7e7e7;
+}
+.btn-check:focus + .btn-costom-white, .btn-costom-white:focus {
+  color: #000;
+  background-color: #e8e8e8;
+  border-color: #e7e7e7;
+  box-shadow: 0 0 0 0.25rem rgba(194, 194, 194, 0.5);
+}
+.btn-check:checked + .btn-costom-white, .btn-check:active + .btn-costom-white, .btn-costom-white:active, .btn-costom-white.active, .show > .btn-costom-white.dropdown-toggle {
+  color: #000;
+  background-color: #e9e9e9;
+  border-color: #e7e7e7;
+}
+.btn-check:checked + .btn-costom-white:focus, .btn-check:active + .btn-costom-white:focus, .btn-costom-white:active:focus, .btn-costom-white.active:focus, .show > .btn-costom-white.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(194, 194, 194, 0.5);
+}
+.btn-costom-white:disabled, .btn-costom-white.disabled {
+  color: #000;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #0d6efd;
@@ -3205,6 +3236,31 @@ textarea.form-control-lg {
 }
 .btn-outline-costom-light:disabled, .btn-outline-costom-light.disabled {
   color: #f1f1f1;
+  background-color: transparent;
+}
+
+.btn-outline-costom-white {
+  color: #e4e4e4;
+  border-color: #e4e4e4;
+}
+.btn-outline-costom-white:hover {
+  color: #000;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+}
+.btn-check:focus + .btn-outline-costom-white, .btn-outline-costom-white:focus {
+  box-shadow: 0 0 0 0.25rem rgba(228, 228, 228, 0.5);
+}
+.btn-check:checked + .btn-outline-costom-white, .btn-check:active + .btn-outline-costom-white, .btn-outline-costom-white:active, .btn-outline-costom-white.active, .btn-outline-costom-white.dropdown-toggle.show {
+  color: #000;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+}
+.btn-check:checked + .btn-outline-costom-white:focus, .btn-check:active + .btn-outline-costom-white:focus, .btn-outline-costom-white:active:focus, .btn-outline-costom-white.active:focus, .btn-outline-costom-white.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(228, 228, 228, 0.5);
+}
+.btn-outline-costom-white:disabled, .btn-outline-costom-white.disabled {
+  color: #e4e4e4;
   background-color: transparent;
 }
 
@@ -4711,6 +4767,15 @@ textarea.form-control-lg {
   color: #4d4d4d;
 }
 
+.alert-costom-white {
+  color: #5b5b5b;
+  background-color: #fafafa;
+  border-color: #f7f7f7;
+}
+.alert-costom-white .alert-link {
+  color: #494949;
+}
+
 .alert-primary {
   color: #084298;
   background-color: #cfe2ff;
@@ -5062,6 +5127,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #606060;
   border-color: #606060;
+}
+
+.list-group-item-costom-white {
+  color: #5b5b5b;
+  background-color: #fafafa;
+}
+.list-group-item-costom-white.list-group-item-action:hover, .list-group-item-costom-white.list-group-item-action:focus {
+  color: #5b5b5b;
+  background-color: #e1e1e1;
+}
+.list-group-item-costom-white.list-group-item-action.active {
+  color: #fff;
+  background-color: #5b5b5b;
+  border-color: #5b5b5b;
 }
 
 .list-group-item-primary {
@@ -6121,6 +6200,13 @@ textarea.form-control-lg {
   color: #f4f4f4;
 }
 
+.link-costom-white {
+  color: #e4e4e4;
+}
+.link-costom-white:hover, .link-costom-white:focus {
+  color: #e9e9e9;
+}
+
 .link-primary {
   color: #0d6efd;
 }
@@ -6526,6 +6612,10 @@ textarea.form-control-lg {
 
 .border-costom-light {
   border-color: #f1f1f1 !important;
+}
+
+.border-costom-white {
+  border-color: #e4e4e4 !important;
 }
 
 .border-primary {
@@ -7361,6 +7451,10 @@ textarea.form-control-lg {
   color: #f1f1f1 !important;
 }
 
+.text-costom-white {
+  color: #e4e4e4 !important;
+}
+
 .text-primary {
   color: #0d6efd !important;
 }
@@ -7419,6 +7513,10 @@ textarea.form-control-lg {
 
 .bg-costom-light {
   background-color: #f1f1f1 !important;
+}
+
+.bg-costom-white {
+  background-color: #e4e4e4 !important;
 }
 
 .bg-primary {
