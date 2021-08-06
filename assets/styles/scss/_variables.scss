@@ -1,0 +1,23 @@
+// backgorundColor
+.bg-gradiant {
+    background: rgb(0, 69, 185);
+    background: linear-gradient(126deg, rgba(0, 69, 185, 1) 0%, rgba(109, 0, 203, 1) 100%);
+}
+
+// cardSize
+.size {
+    &-s {
+        width: 100px;
+        height: auto;
+    }
+}
+
+// fontSize
+.fs {
+    &-s {
+        font-size: 30px;
+    }
+}
+
+// hover
+

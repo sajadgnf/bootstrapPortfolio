@@ -1,0 +1,16 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import 'variables';
+ 
+
+$theme-costom-colors: (
+    "costom-light": rgb(241, 241, 241)
+);
+ 
+
+$theme-colors: map-merge($theme-costom-colors, $theme-colors);
+
+
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
