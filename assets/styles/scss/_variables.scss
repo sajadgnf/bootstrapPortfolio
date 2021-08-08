@@ -6,8 +6,18 @@
 
 // cardSize
 .size {
-    &-s {
+    &-sm {
         width: 100px;
+        height: auto;
+    }
+
+    &-md {
+        width: 400px;
+        height: auto;
+    }
+
+    &-lg {
+        width: 600px;
         height: auto;
     }
 }
@@ -19,5 +29,10 @@
     }
 }
 
-// hover
+// margin
 
+.mt{
+    &-6{
+        margin-top: 7rem !important;
+    }
+}

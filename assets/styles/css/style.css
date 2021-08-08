@@ -4,13 +4,25 @@
   background: linear-gradient(126deg, #0045b9 0%, #6d00cb 100%);
 }
 
-.size-s {
+.size-sm {
   width: 100px;
+  height: auto;
+}
+.size-md {
+  width: 400px;
+  height: auto;
+}
+.size-lg {
+  width: 600px;
   height: auto;
 }
 
 .fs-s {
   font-size: 30px;
+}
+
+.mt-6 {
+  margin-top: 7rem !important;
 }
 
 /*!
